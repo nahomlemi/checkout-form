@@ -26,7 +26,7 @@
 
     </div>
 
-    <div class = "options">
+    <div>
       <select v-model = "option">
         <option>Regular </option>
         <option>Pro </option>
@@ -50,7 +50,8 @@ export default {
   data(){
     return {
       email:"",
-      password:""
+      password:"",
+      option:""
     }
   }
 }
